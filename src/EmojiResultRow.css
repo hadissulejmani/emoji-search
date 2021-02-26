@@ -1,10 +1,12 @@
 .component-emoji-result-row {
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
   padding: 10px;
   height: 32px;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
+  margin-top: 5px;
+  border-radius: 5px;
 }
 
 .component-emoji-result-row:hover {
@@ -25,12 +27,14 @@
 .component-emoji-result-row .info {
   float: right;
   position: relative;
-  top: 8px;
+  top: 10px;
   right: 10px;
   color: #ccc;
+  font-size: small;
   display: none;
 }
 
 .component-emoji-result-row:hover .info {
   display: inline-block;
+  display: right;
 }
